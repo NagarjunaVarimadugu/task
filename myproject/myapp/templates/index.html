@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome page</title>
+</head>
+<body>
+<h1>Welcome page</h1>
+{% for x in items %}
+<p>Task name :{{ x.Designation }} </p>
+<p>Task Description:{{ x.Position}} </p>
+<p>Task Status:{{x.Location }}</p>
+<hr />
+{% endfor %}
+
+</body>
+</html>
